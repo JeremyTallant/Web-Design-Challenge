@@ -42,18 +42,15 @@
   float: left;
 }
 
-.td, thead {
+.td {
   font-size: 14px;
-  border: #17a2b8 ;
 }
 
-.card-header {
-  background-color: #17a2b8
-  ;
-}
 
-.text-info {
+h4.card-header.text-info {
+  background-color: #17a2b8;
   color: #f8f8f8!important;
+  ;
 }
 
 @media (max-width: 768px) {
