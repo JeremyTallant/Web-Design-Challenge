@@ -42,11 +42,9 @@
   float: left;
 }
 
-td, 
-th {border: #17a2b8;}
-
-.td {
+.td, thead {
   font-size: 14px;
+  border: #17a2b8 ;
 }
 
 @media (max-width: 768px) {
