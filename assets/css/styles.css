@@ -47,6 +47,15 @@
   border: #17a2b8 ;
 }
 
+.card-header {
+  background-color: #17a2b8
+  ;
+}
+
+.text-info {
+  color: #f8f8f8!important;
+}
+
 @media (max-width: 768px) {
   .navbar-light.bg-white {
       background-color: #17a2b8 !important;
