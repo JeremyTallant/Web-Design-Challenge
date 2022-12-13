@@ -53,6 +53,12 @@ h4.card-header.text-info {
   ;
 }
 
+h3.card-header.text-info {
+  background-color: #17a2b8;
+  color: #f8f8f8!important;
+  ;
+}
+
 h5.text-info.text-center {
   color: #17a2b8;
 }
