@@ -42,6 +42,9 @@
   float: left;
 }
 
+td, 
+th {border: #17a2b8;}
+
 .td {
   font-size: 14px;
 }
