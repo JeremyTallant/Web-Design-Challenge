@@ -1,29 +1,59 @@
+.nav-link:hover {
+  background-color: #17a2b8 !important;
+  color: white !important;
+}
 
-/* Navbar */
-.navbar-brand-color{
-    font-size: 25px;
-    background-color:#4aaaa5;
-    padding: 5px;
-    margin-left: 5%;
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-  }
+.viz-box:hover {
+  border-color: #17a2b8;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 5px;
+}
 
-/* Change font color and styling on pages */
-  .visualization-font-color{
-    color:#4aaaa5;
-    font-weight: bolder;
-  }  
-  
-  /* Create border around desired smaller image in each Plot page */
-  .img-border {
-    border: 5px solid #4aaaa5;
-  } 
-  
-  /* Create Media query to adjust background color of navbar at max-width 600px.*/
-  @media only screen and (max-width: 600px) {
-    .media-query-navbar-color {
-      background-color:  #4aaaa5!important;
-    }
+.card-body .active {
+  border-color: #17a2b8;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 5px;
+}
+
+.navbar-brand {
+  font-family: monospace;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.dropdown-item:hover {
+  color: white !important;
+  background-color: #17a2b8 !important;
+}
+
+.viz-box:hover {
+  border-color: #17a2b8;
+}
+
+.img-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#img-wrap {
+  float: left;
+}
+
+.td {
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .navbar-light.bg-white {
+      background-color: #17a2b8 !important;
   }
+  .nav-link {
+      color: white !important;
+  }
+  #img-wrap {
+      float: none;
+  }
+}
