@@ -67,6 +67,13 @@ Your website must be deployed to GitHub Pages:
 
 * As a result, the website must work at a live, publicly accessible URL. Save this URL for your later submission.
 
+## File Organization and Structure
+* Located in the parent directory are the [index.html](https://github.com/tallantj95/Web-Design-Challenge/blob/main/index.html), [comparison.html](https://github.com/tallantj95/Web-Design-Challenge/blob/main/comparison.html), and [data.html](https://github.com/tallantj95/Web-Design-Challenge/blob/main/data.html) files.
+* A visualizations folder with the cloudiness.html, humidity.html, temp.html, and wind.html stored within. 
+* An assets folder that contains the css and images folders.
+* A Resources folder with the cities.csv, table.html, and table.ipynb.
+
+
 ## References
 OpenWeatherMap.org. (2012). Сurrent weather and forecast. Retrieved from https://openweathermap.org/.
 
