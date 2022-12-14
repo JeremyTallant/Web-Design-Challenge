@@ -40,6 +40,11 @@
 
 #img-wrap {
   float: left;
+  width: 100%;
+}
+
+#text {
+  text-align: justify;
 }
 
 .td {
