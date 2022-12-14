@@ -69,13 +69,13 @@ Your website must be deployed to GitHub Pages:
 
 ## File Organization and Structure
 * Located in the parent directory are the [index.html](https://github.com/tallantj95/Web-Design-Challenge/blob/main/index.html), [comparison.html](https://github.com/tallantj95/Web-Design-Challenge/blob/main/comparison.html), and [data.html](https://github.com/tallantj95/Web-Design-Challenge/blob/main/data.html) files.
-* A visualizations folder with the cloudiness.html, humidity.html, temp.html, and wind.html stored within. 
-* An assets folder that contains the css and images folders.
-* A Resources folder with the cities.csv, table.html, and table.ipynb.
+* A [visualizations](https://github.com/tallantj95/Web-Design-Challenge/tree/main/visualizations) folder with the [cloudiness.html](https://github.com/tallantj95/Web-Design-Challenge/blob/main/visualizations/cloudiness.html), [humidity.html](https://github.com/tallantj95/Web-Design-Challenge/blob/main/visualizations/humidity.html), [temp.html](https://github.com/tallantj95/Web-Design-Challenge/blob/main/visualizations/temp.html), and [wind.html](https://github.com/tallantj95/Web-Design-Challenge/blob/main/visualizations/wind.html) stored within. 
+* An [assets](https://github.com/tallantj95/Web-Design-Challenge/tree/main/assets) folder that contains the [css](https://github.com/tallantj95/Web-Design-Challenge/tree/main/assets/css) and [images](https://github.com/tallantj95/Web-Design-Challenge/tree/main/assets/images) folders.
+* A [Resources](https://github.com/tallantj95/Web-Design-Challenge/tree/main/Resources) folder with the [cities.csv](https://github.com/tallantj95/Web-Design-Challenge/blob/main/Resources/cities.csv), [table.html](https://github.com/tallantj95/Web-Design-Challenge/blob/main/Resources/table.html), and [table.ipynb](https://github.com/tallantj95/Web-Design-Challenge/blob/main/Resources/table.ipynb).
 
 
 ## References
-OpenWeatherMap.org. (2012). Сurrent weather and forecast. Retrieved from https://openweathermap.org/.
+OpenWeatherMap.org. (2012). Сurrent weather and forecast. Retrieved from [https://openweathermap.org/](https://openweathermap.org/).
 
 © 2022 edX Boot Camps LLC
 
