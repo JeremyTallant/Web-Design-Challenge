@@ -33,7 +33,7 @@ Your website must consist of seven pages as follows:
 
   * A link to each visualization page. For these, a sidebar should contain a preview image of each visualization. Clicking an image should take the user to that visualization.
 
-* Four [visualization pages](url), stored in the `visualizations` folder, each with the following elements:
+* Four [visualization pages](https://tallantj95.github.io/Web-Design-Challenge/visualizations/temp.html), stored in the `visualizations` folder, each with the following elements:
 
   * A descriptive title and a heading tag.
 
@@ -41,13 +41,13 @@ Your website must consist of seven pages as follows:
 
   * A paragraph describing the visualization and its significance.
 
-* A [comparisons page](url) that does the following:
+* A [comparisons page](https://tallantj95.github.io/Web-Design-Challenge/comparison.html) that does the following:
 
   * Contains all the visualizations on the same page so that people can easily compare them.
 
   * Uses a Bootstrap grid for the visualizations. This grid must contain two visualizations across a medium or large screen and one visualization across an extra-small or small screen.
 
-* A [data page](url) that displays a responsive table containing the data that the visualizations use, as follows:
+* A [data page](https://tallantj95.github.io/Web-Design-Challenge/data.html) that displays a responsive table containing the data that the visualizations use, as follows:
 
   * The table must be a Bootstrap `table` component.
 
