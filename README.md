@@ -27,7 +27,7 @@ Next, we’ll describe these requirements in detail.
 
 Your website must consist of seven pages as follows:
 
-* A [landing page](index.html) that contains the following elements:
+* A [landing page](https://tallantj95.github.io/Web-Design-Challenge/index.html) that contains the following elements:
 
   * An explanation of the project.
 
