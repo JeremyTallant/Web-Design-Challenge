@@ -28,9 +28,6 @@
   background-color: #17a2b8 !important;
 }
 
-.viz-box:hover {
-  border-color: #17a2b8;
-}
 
 .img-center {
   display: block;
@@ -50,6 +47,10 @@
 
 .td {
   font-size: 14px;
+}
+
+table.table-hover tbody tr:hover {
+  background-color: #17a2b8;
 }
 
 
