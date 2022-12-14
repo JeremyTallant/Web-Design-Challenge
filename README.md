@@ -1,6 +1,6 @@
 # Web-Design-Challenge
 
-<img width="1440" alt="Screenshot 2022-12-14 at 3 19 50 PM" src="https://user-images.githubusercontent.com/112406455/207717229-1f017d7a-0fb0-41d2-9ab6-c5907ab46676.png">
+<img width="1435" alt="Screenshot 2022-12-14 at 3 19 50 PM" src="https://user-images.githubusercontent.com/112406455/207717850-6968fe97-2cd5-48b7-ae76-215f044994f9.png">
 
 ## Background
 Data becomes more powerful when you share it with others! That’s because people can use your data only if they can access it. So, you’ll use HTML and CSS to create a dashboard featuring the Latitude vs. X analysis of weather.
