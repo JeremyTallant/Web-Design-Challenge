@@ -49,7 +49,7 @@
   font-size: 14px;
 }
 
-.tbody tr:hover {
+.table-hover tbody tr:hover td {
   color: white !important;
   background-color: #17a2b8 !important;
 }
