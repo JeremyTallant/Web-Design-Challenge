@@ -49,8 +49,9 @@
   font-size: 14px;
 }
 
-.td:hover {
-  background-color: #17a2b8;
+.table:hover {
+  color: white !important;
+  background-color: #17a2b8 !important;
 }
 
 
