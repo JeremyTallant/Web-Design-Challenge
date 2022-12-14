@@ -49,7 +49,7 @@
   font-size: 14px;
 }
 
-table:hover {
+.td:hover {
   background-color: #17a2b8;
 }
 
