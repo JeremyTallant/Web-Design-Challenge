@@ -1,0 +1,65 @@
+/* Enhances the navbar look */
+.navbar {
+    background-color: #007bff; /* A nice shade of blue */
+    box-shadow: 0 2px 4px rgba(0,0,0,.1); /* Adds a subtle shadow to the navbar */
+  }
+  
+  /* Change the navbar brand styling */
+  .navbar-brand {
+    background-color: #0056b3; /* A darker shade of blue for contrast */
+    padding: 10px 15px;
+    border-radius: 0.25rem; /* Rounded corners for the brand */
+    font-size: 1.5em; /* Larger font size for the brand */
+  }
+  
+  /* Navbar link styles */
+  .nav-link {
+    color: #fff; /* White color for links for better visibility */
+    transition: color 0.2s; /* Smooth transition for hover effect */
+  }
+  
+  .nav-link:hover, .nav-link:focus {
+    color: #ffc107; /* A yellowish color on hover and focus */
+  }
+  
+  /* Active nav item */
+  .nav-item.active .nav-link {
+    color: #ffc107; /* Yellowish color for the active page */
+  }
+  
+  /* Card styling */
+  .card {
+    margin-top: 1rem;
+    border: none; /* Removes border */
+    box-shadow: 0 4px 6px rgba(0,0,0,.1); /* Adds shadow to cards */
+  }
+  
+  .card-header {
+    background-color: #007bff; /* Same as navbar for consistency */
+    color: #fff; /* White text color */
+    font-size: 1.25em;
+  }
+  
+  .card-body {
+    padding: 2rem; /* More padding for better spacing */
+  }
+  
+  /* General body styling */
+  body.bg-light {
+    background-color: #f8f9fa; /* A very light grey that is easier on the eyes */
+  }
+  
+  /* Image visualization box styling */
+  .viz-box {
+    margin-bottom: 1rem; /* Adds space below the images */
+    box-shadow: 0 2px 4px rgba(0,0,0,.1); /* Subtle shadow around images */
+  }
+  
+  /* Ensures that images are not too big on larger screens */
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  
+  
