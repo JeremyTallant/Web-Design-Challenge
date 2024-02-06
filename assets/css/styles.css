@@ -1,66 +1,65 @@
 /* Enhances the navbar look */
 .navbar {
-    background-color: #007bff; /* A nice shade of blue */
-    box-shadow: 0 2px 4px rgba(0,0,0,.1); /* Adds a subtle shadow to the navbar */
-  }
+    background-color: #343a40; /* Darker shade for navbar */
+    box-shadow: 0 2px 4px rgba(255,255,255,.1); /* Subtle shadow for depth */
+}
   
-  /* Change the navbar brand styling */
-  .navbar-brand {
-    background-color: #007bff;
+/* Change the navbar brand styling */
+.navbar-brand {
+    background-color: #343a40; /* Consistent with the navbar */
     padding: 10px 15px;
-    border-radius: 0.25rem; /* Rounded corners for the brand */
-    font-size: 1.5em; /* Larger font size for the brand */
-    color: #ffffff;
-  }
+    border-radius: 0.25rem;
+    font-size: 1.5em;
+    color: #ffffff; /* Ensures the brand text is white */
+}
   
-  /* Navbar link styles */
-  .nav-link {
-    color: #fff; /* White color for links for better visibility */
-    transition: color 0.2s; /* Smooth transition for hover effect */
-  }
+/* Navbar link styles */
+.nav-link {
+    color: #adb5bd; /* Lighter color for links for better visibility against dark background */
+    transition: color 0.2s;
+}
   
-  .nav-link:hover, .nav-link:focus {
-    color: #ffc107; /* A yellowish color on hover and focus */
-  }
+.nav-link:hover, .nav-link:focus {
+    color: #ffffff; /* White color on hover and focus */
+}
   
-  /* Active nav item */
-  .nav-item.active .nav-link {
-    color: #ffc107; /* Yellowish color for the active page */
-  }
+/* Active nav item */
+.nav-item.active .nav-link {
+    color: #ffc107; /* Yellowish color for the active page, ensures visibility */
+}
   
-  /* Card styling */
-  .card {
+/* Card styling for dark mode */
+.card {
     margin-top: 1rem;
-    border: none; /* Removes border */
-    box-shadow: 0 4px 6px rgba(0,0,0,.1); /* Adds shadow to cards */
-  }
+    background-color: #23272b; /* Dark background for cards */
+    border: 1px solid #444; /* Slight border for definition */
+    box-shadow: 0 4px 6px rgba(255,255,255,.1);
+}
   
-  .card-header {
-    background-color: #007bff; /* Same as navbar for consistency */
-    color: #fff; /* White text color */
+.card-header {
+    background-color: #343a40;
+    color: #ffffff;
     font-size: 1.25em;
-  }
+}
   
-  .card-body {
-    padding: 2rem; /* More padding for better spacing */
-  }
+.card-body {
+    padding: 2rem;
+    color: #adb5bd; /* Lighter text color for readability */
+}
   
-  /* General body styling */
-  body.bg-light {
-    background-color: #f8f9fa; /* A very light grey that is easier on the eyes */
-  }
+/* General body styling */
+body.bg-light {
+    background-color: #121212; /* Dark background for the body */
+    color: #ffffff; /* Ensures general text is light-colored for readability */
+}
   
-  /* Image visualization box styling */
-  .viz-box {
-    margin-bottom: 1rem; /* Adds space below the images */
-    box-shadow: 0 2px 4px rgba(0,0,0,.1); /* Subtle shadow around images */
-  }
+/* Image visualization box styling */
+.viz-box {
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 4px rgba(255,255,255,.1);
+}
   
-  /* Ensures that images are not too big on larger screens */
-  .img-fluid {
+.img-fluid {
     max-width: 100%;
     height: auto;
-  }
-  
-  
-  
+}
