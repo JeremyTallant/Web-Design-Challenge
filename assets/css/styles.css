@@ -150,5 +150,5 @@ body.bg-dark {
 .card-header {
     background-color: #343a40; /* Or any desired color */
     color: #ffffff;
-    padding: 10px 15px; /* Adjust padding as needed for alignment */
+    padding: 15px; /* Adjust padding as needed for alignment */
 }
