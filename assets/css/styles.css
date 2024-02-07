@@ -75,16 +75,20 @@ body.bg-dark {
   
 /* Image visualization box styling */
 .viz-box {
+    display: inline-block; /* Necessary for padding and border to work correctly on <a> or <div> */
     margin-bottom: 1rem;
     box-shadow: 0 2px 4px rgba(255,255,255,.1);
+    background-color: #23272b; /* Match the dark background for the gap effect */
+    padding: 8px; /* Creates a gap between the image and its border */
+    border-radius: 5px; /* Optional: Adds rounded corners to the padding area as well */
 }
 
 .viz-box:hover {
-    border-color: #c0c0c0; /* Sets the border color to white */
+    border-color: #c0c0c0; /* Light gray border color for hover */
     border-width: 3px; /* Defines the width of the border */
     border-style: solid; /* Makes the border solid */
-    border-radius: 5px; /* Adds rounded corners to the border */
 }
+
   
   
 .img-fluid {
