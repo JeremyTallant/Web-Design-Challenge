@@ -152,3 +152,7 @@ body.bg-dark {
     color: #ffffff;
     padding: 15px; /* Adjust padding as needed for alignment */
 }
+
+.table {
+    margin: 0; /* Removes default margin */
+}
