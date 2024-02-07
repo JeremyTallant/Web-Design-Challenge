@@ -1,61 +1,78 @@
 /* Enhances the navbar look */
 .navbar {
-    background-color: #343a40; /* Darker shade for navbar */
-    box-shadow: 0 2px 4px rgba(255,255,255,.1); /* Subtle shadow for depth */
+    background-color: #343a40;
+    /* Darker shade for navbar */
+    box-shadow: 0 2px 4px rgba(255, 255, 255, .1);
+    /* Subtle shadow for depth */
 }
-  
+
 /* Slightly darker navbar brand with hover effect */
 .navbar-brand {
-    background-color: #2c3034; /* Slightly darker than navbar for contrast */
+    background-color: #2c3034;
+    /* Slightly darker than navbar for contrast */
     padding: 10px 15px;
     border-radius: 0.25rem;
     font-size: 1.5em;
-    color: #ffffff !important; /* Ensures the brand text is white */
-    transition: background-color 0.2s; /* Smooth transition for hover effect */
+    color: #ffffff !important;
+    /* Ensures the brand text is white */
+    transition: background-color 0.2s;
+    /* Smooth transition for hover effect */
 }
 
-.navbar-brand:hover, .navbar-brand:focus {
-    background-color: #3a3f44; /* Lighter than its default state on hover */
+.navbar-brand:hover,
+.navbar-brand:focus {
+    background-color: #3a3f44;
+    /* Lighter than its default state on hover */
 }
-  
+
 /* Navbar link styles */
 .nav-link {
-    color: #adb5bd; /* Lighter color for links for better visibility against dark background */
+    color: #adb5bd;
+    /* Lighter color for links for better visibility against dark background */
     transition: color 0.2s;
 }
 
-.nav-link:hover, .nav-link:focus {
-    color: #ffffff; /* White color on hover and focus */
+.nav-link:hover,
+.nav-link:focus {
+    color: #ffffff;
+    /* White color on hover and focus */
 }
-  
+
 /* Active nav item */
 .nav-item.active .nav-link {
-    color: #ffc107; /* Yellowish color for the active page, ensures visibility */
+    color: #ffc107;
+    /* Yellowish color for the active page, ensures visibility */
 }
 
 /* Dark dropdown menu with white text */
 .navbar .dropdown-menu {
-    background-color: #343a40; /* Dark background for dropdown */
-    border-color: #343a40; /* Optional: Adjust if you want a border */
+    background-color: #343a40;
+    /* Dark background for dropdown */
+    border-color: #343a40;
+    /* Optional: Adjust if you want a border */
 }
 
 .navbar .dropdown-menu .dropdown-item {
     color: #ffffff;
 }
 
-.navbar .dropdown-menu .dropdown-item:hover, .navbar .dropdown-menu .dropdown-item:focus {
-    background-color: #495057; /* Slightly lighter for hover/focus */
+.navbar .dropdown-menu .dropdown-item:hover,
+.navbar .dropdown-menu .dropdown-item:focus {
+    background-color: #495057;
+    /* Slightly lighter for hover/focus */
     color: #ffffff;
 }
-  
+
 /* Card styling for dark mode */
 .card {
     margin-top: 1rem;
-    background-color: #23272b; /* Dark background for cards */
-    border: 1px solid #444; /* Slight border for definition */
-    box-shadow: 0 4px 6px rgba(255,255,255,.1);
+    background-color: #23272b;
+    /* Dark background for cards */
+    border: 1px solid #444;
+    /* Slight border for definition */
+    box-shadow: 0 4px 6px rgba(255, 255, 255, .1);
 }
-  
+
 .card-header {
     background-color: #343a40;
     color: #ffffff;
@@ -64,39 +81,74 @@
 
 .card-body {
     padding: 2rem;
-    color: #ffffff; /* Adjusted to white for overall readability */
+    color: #ffffff;
+    /* Adjusted to white for overall readability */
 }
-  
+
 /* General body styling */
 body.bg-dark {
-    background-color: #23272b !important; /* Dark background for the body */
-    color: #ffffff; /* Ensures general text is light-colored for readability */
+    background-color: #23272b !important;
+    /* Dark background for the body */
+    color: #ffffff;
+    /* Ensures general text is light-colored for readability */
 }
-  
+
 /* Image visualization box styling */
 .viz-box {
-    display: inline-block; /* Necessary for padding and border to work correctly on <a> or <div> */
+    display: inline-block;
+    /* Necessary for padding and border to work correctly on <a> or <div> */
     margin-bottom: 1rem;
-    box-shadow: 0 2px 4px rgba(255,255,255,.1);
-    background-color: #23272b; /* Match the dark background for the gap effect */
-    padding: 8px; /* Creates a gap between the image and its border */
-    border-radius: 5px; /* Optional: Adds rounded corners to the padding area as well */
+    box-shadow: 0 2px 4px rgba(255, 255, 255, .1);
+    background-color: #23272b;
+    /* Match the dark background for the gap effect */
+    padding: 8px;
+    /* Creates a gap between the image and its border */
+    border-radius: 5px;
+    /* Optional: Adds rounded corners to the padding area as well */
 }
 
 .viz-box:hover {
-    border-color: #c0c0c0; /* Light gray border color for hover */
-    border-width: 3px; /* Defines the width of the border */
-    border-style: solid; /* Makes the border solid */
+    border-color: #c0c0c0;
+    /* Light gray border color for hover */
+    border-width: 3px;
+    /* Defines the width of the border */
+    border-style: solid;
+    /* Makes the border solid */
 }
 
-  
-  
+
+
 .img-fluid {
     max-width: 100%;
     height: auto;
 }
 
 /* Ensures the "Data" heading and all table text are white */
-.card-header.text-info, .table th, .table td {
-    color: #ffffff !important; /* Forces text color to white */
+.card-header.text-info,
+.table th,
+.table td {
+    color: #ffffff !important;
+    /* Forces text color to white */
+}
+
+#text {
+    text-align: justify;
+    margin: 20px;
+}
+
+.td {
+    font-size: 14px;
+}
+
+/* Style for table header to match the navbar color */
+.table thead th {
+    background-color: #343a40; /* Navbar color */
+    color: #ffffff; /* Ensuring text color is white for contrast */
+}
+
+/* Adjusting card header alignment */
+.card-header {
+    background-color: #343a40; /* Or any desired color */
+    color: #ffffff;
+    padding: 10px 15px; /* Adjust padding as needed for alignment */
 }
