@@ -95,3 +95,8 @@ body.bg-dark {
     max-width: 100%;
     height: auto;
 }
+
+/* Ensures the "Data" heading and all table text are white */
+.card-header.text-info, .table th, .table td {
+    color: #ffffff !important; /* Forces text color to white */
+}
