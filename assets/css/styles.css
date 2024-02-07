@@ -80,7 +80,7 @@ body.bg-dark {
 }
 
 .viz-box:hover {
-    border-color: #ffffff; /* Sets the border color to white */
+    border-color: #c0c0c0; /* Sets the border color to white */
     border-width: 3px; /* Defines the width of the border */
     border-style: solid; /* Makes the border solid */
     border-radius: 5px; /* Adds rounded corners to the border */
