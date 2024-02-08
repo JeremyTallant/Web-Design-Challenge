@@ -163,3 +163,10 @@ body.bg-dark {
     margin-right: auto;
     margin-left: auto;
 }
+
+.img-fluid.viz-box {
+    max-width: 90%; /* Adjust this value as needed */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* To center the image if needed */
+    margin: 0 auto; /* Center the image within its container */
+}
