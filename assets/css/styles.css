@@ -84,10 +84,6 @@
     /* Adjusted to white for overall readability */
 }
 
-.card-body .active {
-    border-width: 3px;
-    border-radius: 5px;
-}
 
 /* General body styling */
 body.bg-dark {
