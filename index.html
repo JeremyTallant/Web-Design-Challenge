@@ -58,89 +58,92 @@
   </nav>
 
   <!-- Start of container -->
-  <div class="container mt-5">
-    <div class="card">
-      <h3 class="card-header">Summary: Latitude vs X</h3>
-      <div class="card-body">
-        <!-- Start nested row for image and text side by side -->
-        <div class="row">
-          <div class="col-md-6">
-            <img id="img-wrap" class="img-fluid mb-4" src="assets/images/fig1.svg" alt="Latitude vs. Max Temperature">
-          </div>
-          <div class="col-md-6">
-            <p class="card-text">
-              Embarking on a fascinating journey to uncover the mysteries of our climate, this project delves into the
-              intricate dance between weather patterns and their proximity to the equator. Leveraging the robust
-              OpenWeatherMap API, we meticulously curated a comprehensive dataset encompassing over 500 cities across
-              the globe.
-            </p>
-          </div>
-        </div>
-        <!-- End nested row for image and text side by side -->
-
-        <div class="row">
-          <div class="col-12">
-            <p class="card-text">
-              Utilizing the powerful visualization capabilities of Matplotlib, we embarked on a visual exploration,
-              mapping out the nuanced interplay between latitude and key meteorological variables—temperature,
-              cloudiness, wind speed, and humidity. This platform serves as a treasure trove of insights, offering
-              access to the raw data that powered our investigation alongside dynamic visual representations. Here,
-              you'll find the fruits of our analytical labor and an in-depth commentary on the patterns, trends, and
-              correlations unearthed through our analysis. Join us as we peel back the layers of our atmosphere,
-              revealing the climatic secrets held within.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Start of Visualizations imageNav Area -->
+  <div class="container">
     <div class="row">
-      <div class="col-lg-5 mt-5">
+      <div class="col-md-12 col-lg-7 mt-5">
         <div class="card">
-          <h3 class="card-header">Visualizations</h3>
+          <h3 class="card-header">Summary: Latitude vs X</h3>
           <div class="card-body">
+            <!-- Use nested rows and columns within the card-body -->
             <div class="row">
-              <div class="col-md-6 pb-3">
-                <a href="visualizations/temp.html">
-                  <img src="assets/images/fig1.svg" class="img-fluid viz-box" title="Latitude vs. Max Temperature"
-                    alt="Latitude vs. Max Temperature">
-                </a>
+              <div class="col-md-12 col-lg-6">
+                <!-- Image goes here -->
+                <img id="img-wrap" class="img-fluid mb-4" src="assets/images/fig1.svg"
+                  alt="Latitude vs. Max Temperature">
               </div>
-              <div class="col-md-6 pb-3">
-                <a href="visualizations/humidity.html">
-                  <img src="assets/images/fig2.svg" class="img-fluid viz-box" title="Latitude vs. Humidity"
-                    alt="Latitude vs. Humidity">
-                </a>
+              <div class="col-md-12 col-lg-6">
+                <!-- Text that appears to the right of the image on large screens goes here -->
+                <p class="card-text">
+                  Embarking on a fascinating journey to uncover the mysteries of our climate, this project delves into
+                  the
+                  intricate dance between weather patterns and their proximity to the equator. Leveraging the robust
+                  OpenWeatherMap API, we meticulously curated a comprehensive dataset encompassing over 500 cities
+                  across
+                  the globe.
+                </p>
               </div>
             </div>
             <div class="row">
-              <div class="col-md-6 pb-3">
-                <a href="visualizations/cloudiness.html">
-                  <img src="assets/images/fig3.svg" class="img-fluid viz-box" title="Latitude vs. Cloudiness"
-                    alt="Latitude vs. Cloudiness">
-                </a>
+              <div class="col-12">
+                <!-- Text that appears below the image on all screen sizes goes here -->
+                <p class="card-text">
+                  Utilizing the powerful visualization capabilities of Matplotlib, we embarked on a visual exploration,
+                  mapping out the nuanced interplay between latitude and key meteorological variables—temperature,
+                  cloudiness, wind speed, and humidity. This platform serves as a treasure trove of insights, offering
+                  access to the raw data that powered our investigation alongside dynamic visual representations. Here,
+                  you'll find the fruits of our analytical labor and an in-depth commentary on the patterns, trends, and
+                  correlations unearthed through our analysis. Join us as we peel back the layers of our atmosphere,
+                  revealing the climatic secrets held within.
+                </p>
               </div>
-              <div class="col-md-6 pb-3">
-                <a href="visualizations/wind.html">
-                  <img src="assets/images/fig4.svg" class="img-fluid viz-box" title="Latitude vs. Wind Speed"
-                    alt="Latitude vs. Wind Speed">
-                </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-12 col-lg-5 mt-5">
+          <div class="card">
+            <h3 class="card-header">Visualizations</h3>
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-6 pb-3">
+                  <a href="visualizations/temp.html">
+                    <img src="assets/images/fig1.svg" class="img-fluid viz-box" title="Latitude vs. Max Temperature"
+                      alt="Latitude vs. Max Temperature">
+                  </a>
+                </div>
+                <div class="col-md-6 pb-3">
+                  <a href="visualizations/humidity.html">
+                    <img src="assets/images/fig2.svg" class="img-fluid viz-box" title="Latitude vs. Humidity"
+                      alt="Latitude vs. Humidity">
+                  </a>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 pb-3">
+                  <a href="visualizations/cloudiness.html">
+                    <img src="assets/images/fig3.svg" class="img-fluid viz-box" title="Latitude vs. Cloudiness"
+                      alt="Latitude vs. Cloudiness">
+                  </a>
+                </div>
+                <div class="col-md-6 pb-3">
+                  <a href="visualizations/wind.html">
+                    <img src="assets/images/fig4.svg" class="img-fluid viz-box" title="Latitude vs. Wind Speed"
+                      alt="Latitude vs. Wind Speed">
+                  </a>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+    <!-- End of container -->
     </div>
-    <!-- End of the Visualizations imageNav Area -->
-  </div>
-  <!-- End of container -->
-  </div>
-  <!-- jQuery CDN -->
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-  <!-- Bootstrap CDN -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 
