@@ -1,6 +1,12 @@
 body {
-    background-color: #e9ecef; /* Darker shade of off-white for the whole page background */
+    background-color: #e9ecef;
 }
-  
-  
-  
+
+p {
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.viz-box:hover {
+    border: 4px solid #00a2ffbb;
+    border-radius: 8px;
+}
