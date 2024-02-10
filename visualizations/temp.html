@@ -1,37 +1,127 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<head>
 
-    <!-- Add a title here -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <!-- Boostrap Stylesheet -->
-    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" media="screen">
+  <title>Max Temperature</title>
 
-    <!-- Our own CSS stylesheet -->
-    <link rel="stylesheet" href="../assets/css/styles.css" media="screen">
+  <!-- Boostrap Stylesheet -->
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css" media="screen">
 
-  </head>
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 
-  <body>
-    <!-- Start of navbar -->
+  <!-- Open Sans Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Our own CSS stylesheet -->
+  <link rel="stylesheet" href="../assets/css/styles.css" media="screen">
+
+</head>
+
+<body>
+  <!-- Start of navbar -->
+  <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../index.html">Latitude</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01"
+        aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarColor01">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+              aria-expanded="false"><i class="bi bi-bar-chart-fill"></i> Plots</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="temp.html"><i class="bi bi-thermometer-high"></i> Max
+                Temperature</a>
+              <a class="dropdown-item" href="humidity.html"><i class="bi bi-droplet-fill"></i>
+                Humidity</a>
+              <a class="dropdown-item" href="cloudiness.html"><i class="bi bi-cloud-fill"></i>
+                Cloudiness</a>
+              <a class="dropdown-item" href="wind.html"> <i class="bi bi-wind"></i> Wind Speed</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../comparison.html"><i class="bi bi-grid"></i> Comparison</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../data.html"><i class="bi bi-table"></i> Data</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/JeremyTallant/Web-Design-Challenge"><i class="bi bi-github"></i> Repo</a>
+          </li>
+        </ul>
+      </div>
+    </div>
     <!-- End of navbar -->
+  </nav>
 
-    <!-- Start of container -->
+  <!-- Start of container -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 col-lg-7 mt-5">
+        <div class="card">
+          <h3 class="card-header bg-primary text-white">Latitude vs Max Temperature</h3>
+          <div class="card-body">
+            <img id="img-wrap" class="img-fluid mb-4" src="../assets/images/fig1.svg"
+              alt="Latitude vs. Cloudiness">
+            <p class="card-text">
+              The scatter plot visualizes the correlation between city latitudes and their maximum temperatures on January 7th, 2024, exhibiting a distinctive pattern where temperatures peak near the equator and diminish towards the poles. This trend is consistent with established climatic behaviors, where equatorial cities experience higher temperatures due to the direct incidence of sunlight, while cities at higher latitudes endure colder conditions. The data suggests a smooth gradient of temperature change relative to latitude. This could indicate the seasonal impact on global weather patterns, especially given the date in January, typically winter for the northern hemisphere and summer for the southern hemisphere.
+            </p>
+          </div>
+        </div>
+      </div>
 
-          <!-- Start of Visualizations imageNav Area -->
-          <!-- End of the Visualizations imageNav Area -->
-
+      
+      <div class="col-md-12 col-lg-5 mt-5">
+        <div class="card">
+          <h3 class="card-header bg-primary text-white">Visualizations</h3> 
+          <div class="card-body">
+            <div class="row">
+              <div class="col-md-6 pb-3">
+                <a href="temp.html">
+                  <img src="../assets/images/fig1.svg" class="img-fluid viz-box" title="Latitude vs. Max Temperature"
+                    alt="Latitude vs. Max Temperature">
+                </a>
+              </div>
+              <div class="col-md-6 pb-3">
+                <a href="humidity.html">
+                  <img src="../assets/images/fig2.svg" class="img-fluid viz-box" title="Latitude vs. Humidity"  alt="Latitude vs. Humidity">
+                </a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 pb-3">
+                <a href="cloudiness.html">
+                  <img src="../assets/images/fig3.svg" class="img-fluid viz-box" title="Latitude vs. Cloudiness" alt="Latitude vs. Cloudiness">
+                </a> 
+              </div>
+                <div class="col-md-6 pb-3">
+                  <a href="wind.html">
+                    <img src="../assets/images/fig4.svg" class="img-fluid viz-box" title="Latitude vs. Wind Speed"
+                      alt="Latitude vs. Wind Speed">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     <!-- End of container -->
+    </div>
 
-    <!-- jQuery CDN -->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+     <!-- jQuery CDN -->
+     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-    <!-- Bootstrap CDN -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+     <!-- Bootstrap CDN -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+ 
   </body>
 
 </html>
