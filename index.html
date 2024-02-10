@@ -1,117 +1,35 @@
 <!DOCTYPE html>
 <html lang="en-us">
+  <head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Bootstrap Visualization Dashboard</title>
-  <!-- Bootstrap 4 Stylesheet -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-  <!-- Our own CSS stylesheet -->
-  <link rel="stylesheet" href="assets/css/styles.css" media="screen">
-</head>
+    <title>Bootstrap Visualization Dashboard</title>
 
-<body class="bg-dark" style="background-color: #23272b !important;">
+    <!-- Boostrap Stylesheet -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" media="screen">
 
+    <!-- Our own CSS stylesheet -->
+    <link rel="stylesheet" href="assets/css/styles.css" media="screen">
 
-  <!-- Start of navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="index.html">Latitude</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
-            <i class="fas fa-chart-line"></i> Plots
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="visualizations/temp.html"><i class="fas fa-thermometer-half"></i> Max Temperature</a>
-            <a class="dropdown-item" href="visualizations/humidity.html"><i class="fas fa-water"></i> Humidity</a>
-            <a class="dropdown-item" href="visualizations/cloudiness.html"> <i class="fas fa-cloud"></i> Cloudiness</a>
-            <a class="dropdown-item" href="visualizations/wind.html"> <i class="fas fa-wind"></i> Wind Speed</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="comparison.html"><i class="fas fa-balance-scale"></i> Comparison</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="data.html"><i class="fas fa-table"></i> Data</a>
-        </li>
-      </ul>
-    </div>
-  <!-- End of navbar -->
-  </nav>
+  </head>
 
-  <!-- Start of container -->
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 col-lg-7 mt-5">
-        <div class="card">
-          <h3 class="card-header">Summary: Latitude vs X</h3>
-          <div class="card-body">
-            <img id="img-wrap" class="img-fluid mb-4" src="assets/images/fig1.svg"
-              alt="Latitude vs. Max Temperature">
-            <p class="card-text">
-              Embarking on a fascinating journey to uncover the mysteries of our climate, this project delves into the intricate dance between weather patterns and their proximity to the equator. Leveraging the robust OpenWeatherMap API, we meticulously curated a comprehensive dataset encompassing over 500 cities across the globe.
-            </p>
-            <p class="card-text">
-              Utilizing the powerful visualization capabilities of Matplotlib, we embarked on a visual exploration, mapping out the nuanced interplay between latitude and key meteorological variables—temperature, cloudiness, wind speed, and humidity. This platform serves as a treasure trove of insights, offering access to the raw data that powered our investigation alongside dynamic visual representations. Here, you'll find not only the fruits of our analytical labor but also an in-depth commentary on the patterns, trends, and correlations unearthed through our analysis. Join us as we peel back the layers of our atmosphere, revealing the climatic secrets held within.
-            </p>
-          </div>
-        </div>
-      </div>
+  <body>
+    <!-- Start of navbar -->
+    <!-- End of navbar -->
 
-      <div class="col-md-12 col-lg-5 mt-5">
-        <div class="card">
-          <h3 class="card-header">Visualizations</h3> 
-          <div class="card-body">
-            <div class="row">
-              <div class="col-md-6 pb-3">
-                <a href="visualizations/temp.html">
-                  <img src="assets/images/fig1.svg" class="img-fluid viz-box" title="Latitude vs. Max Temperature"
-                    alt="Latitude vs. Max Temperature">
-                </a>
-              </div>
-              <div class="col-md-6 pb-3">
-                <a href="visualizations/humidity.html">
-                  <img src="assets/images/fig2.svg" class="img-fluid viz-box" title="Latitude vs. Humidity"  alt="Latitude vs. Humidity">
-                </a>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-6 pb-3">
-                <a href="visualizations/cloudiness.html">
-                  <img src="assets/images/fig3.svg" class="img-fluid viz-box" title="Latitude vs. Cloudiness" alt="Latitude vs. Cloudiness">
-                </a> 
-              </div>
-                <div class="col-md-6 pb-3">
-                  <a href="visualizations/wind.html">
-                    <img src="assets/images/fig4.svg" class="img-fluid viz-box" title="Latitude vs. Wind Speed"
-                      alt="Latitude vs. Wind Speed">
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+    <!-- Start of container -->
+          <!-- Start of Visualizations imageNav Area -->
+          <!-- End of the Visualizations imageNav Area -->
     <!-- End of container -->
-    </div>
 
-    <!-- jQuery and Bootstrap Scripts for Bootstrap 4 -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      crossorigin="anonymous"></script>
-</body>
+    <!-- jQuery CDN -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+    <!-- Bootstrap CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  </body>
 
 </html>
