@@ -1,33 +1,103 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<head>
 
-    <!-- Add a title here -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <!-- Boostrap Stylesheet -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" media="screen">
+  <title>Bootstrap Visualization Dashboard</title>
 
-    <!-- Our own CSS stylesheet -->
-    <link rel="stylesheet" href="assets/css/styles.css" media="screen">
+  <!-- Boostrap Stylesheet -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" media="screen">
 
-  </head>
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 
-  <body>
-    <!-- Start of navbar -->
+  <!-- Open Sans Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Our own CSS stylesheet -->
+  <link rel="stylesheet" href="assets/css/styles.css" media="screen">
+
+</head>
+
+<body>
+  <!-- Start of navbar -->
+  <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Latitude</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01"
+        aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarColor01">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+              aria-expanded="false"><i class="bi bi-bar-chart-fill"></i> Plots</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="visualizations/temp.html"><i class="bi bi-thermometer-high"></i> Max
+                Temperature</a>
+              <a class="dropdown-item" href="visualizations/humidity.html"><i class="bi bi-droplet-fill"></i>
+                Humidity</a>
+              <a class="dropdown-item" href="visualizations/cloudiness.html"><i class="bi bi-cloud-fill"></i>
+                Cloudiness</a>
+              <a class="dropdown-item" href="visualizations/wind.html"> <i class="bi bi-wind"></i> Wind Speed</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="comparison.html"><i class="bi bi-grid"></i> Comparison</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="data.html"><i class="bi bi-table"></i> Data</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/JeremyTallant/Web-Design-Challenge"><i class="bi bi-github"></i> Repo</a>
+          </li>
+        </ul>
+      </div>
+    </div>
     <!-- End of navbar -->
+  </nav>
 
-    <!-- Start of container -->
+  <!-- Start of container -->
+  <div class="container mt-5">
+    <div class="card">
+      <h3 class="card-header bg-primary text-white">Comparison: Latitude vs. X</h3>
+      <div class="card-body">
+        <p class="card-text pb-2">Click any plot to get an in-depth analysis.</p>
+          <div class="row py-3">
+            <div class="col-md-6 p-0">
+              <h5 class ="text-primary text-center m=0">Max Temperature</h5>
+              <a href="visualizations/temp.html"><img class="img-fluid img-center viz-box" src="assets/images/fig1.svg" Title="Latitude vs. Max Temperature"></a>
+            </div>
+            <div class="col-md-6 p-0">
+              <h5 class ="text-primary text-center m=0">Humidity</h5>
+              <a href="visualizations/humidity.html"><img class="img-fluid img-center viz-box" src="assets/images/fig2.svg" Title="Latitude vs. Humidity"></a>
+            </div>
+          </div>
+          <div class="row py-3">
+            <div class="col-md-6 p-0">
+              <h5 class ="text-primary text-center m=0">Cloudiness</h5>
+              <a href="visualizations/cloudiness.html"><img class="img-fluid img-center viz-box" src="assets/images/fig3.svg" Title="Latitude vs. Cloudiness"></a>
+            </div>
+            <div class="col-md-6 p-0">
+              <h5 class ="text-primary text-center m=0">Wind Speed</h5>
+              <a href="visualizations/wind.html"><img class="img-fluid img-center viz-box" src="assets/images/fig4.svg" Title="Latitude vs. Wind Speed"></a>
+            </div>
+          </div>
+      </div>
+    </div>
     <!-- End of container -->
+    </div>
 
     <!-- jQuery CDN -->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
     <!-- Bootstrap CDN -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 
 </html>
