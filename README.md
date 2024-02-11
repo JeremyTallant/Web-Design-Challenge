@@ -21,3 +21,19 @@ The Web-Based Weather Explorer Dashboard is designed to provide an immersive and
 * **GitHub Pages Deployment**: The dashboard is hosted on GitHub Pages, providing easy and reliable access to the project's latest version for anyone with an internet connection.
 
 These features collectively ensure that the Web-Based Weather Explorer Dashboard is a tool for visualizing weather data and an educational resource for understanding the impact of geographic location on weather patterns.
+## Technologies Used
+The Web-Based Weather Explorer Dashboard leverages a combination of modern web development technologies and data analysis tools to provide a rich user experience and insightful visualizations. Below is a list of the critical technologies and frameworks that play a crucial role in the development and operation of the dashboard:
+* **HTML5**: Used as the backbone of the dashboard, HTML5 enables the structuring of web content, ensuring that the dashboard's layout is well-organized and semantically correct.
+* **CSS3**: Cascading Style Sheets (CSS3) are utilized for styling the dashboard. Custom styles alongside Bootstrap components create a visually appealing and intuitive user interface.
+* **Bootstrap**: This open-source toolkit is used for developing with HTML, CSS, and JS. Bootstrap provides a responsive grid system, prebuilt components, and powerful plugins, making the dashboard responsive and accessible on any device.
+* **jQuery**: A fast, small, and feature-rich JavaScript library. It simplifies HTML document traversal and manipulation, event handling, and animation.
+* **Pandas (Python)**: Utilized for data manipulation and analysis; the project's dataset was prepared and analyzed using Pandas. The to_html method in Pandas was beneficial for converting the data into HTML tables for the data page.
+* **Git:** Used for version control, Git allows for efficient project source code management, enabling collaborative development and easy tracking of changes.
+* **GitHub Pages**: Provides a hosting service that allows the dashboard to be deployed directly from the GitHub repository to the web, making it publicly accessible.
+
+These technologies were chosen for their reliability, scalability, and wide adoption in the web development community, ensuring that the Web-Based Weather Explorer Dashboard is built on a solid foundation that can evolve.
+
+
+
+
+
