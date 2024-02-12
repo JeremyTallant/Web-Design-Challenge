@@ -32,7 +32,33 @@ The Web-Based Weather Explorer Dashboard leverages a combination of modern web d
 * **GitHub Pages**: Provides a hosting service that allows the dashboard to be deployed directly from the GitHub repository to the web, making it publicly accessible.
 
 These technologies were chosen for their reliability, scalability, and wide adoption in the web development community, ensuring that the Web-Based Weather Explorer Dashboard is built on a solid foundation that can evolve.
-## Usage
-
+## Project Structure
+This section provides a detailed overview of the repository structure for the Web-Based Weather Explorer Dashboard, ensuring that users can navigate and understand the layout of each file and directory.
+```plaintext
+Web-Design-Challenge
+│
+├── assets/                     
+│   ├── css/                    
+│   │   ├── bootstrap.min.css   
+│   │   └── styles.css          
+│   │
+│   └── images/                 
+│       ├── fig1.svg            
+│       ├── fig2.svg            
+│       ├── fig3.svg            
+│       ├── fig4.svg            
+│       └── homepage.png        
+│
+├── visualizations/            
+│   ├── cloudiness.html         
+│   ├── humidity.html           
+│   ├── temp.html               
+│   └── wind.html               
+│
+├── comparison.html             
+├── data.html                   
+├── index.html                  
+└── README.md                   
+```
 
 
