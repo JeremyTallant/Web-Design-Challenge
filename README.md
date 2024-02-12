@@ -70,7 +70,7 @@ The Web-Based Weather Explorer Dashboard is designed to be intuitive and user-fr
 	* **Humidity**: Analyze humidity trends around the world.
 	* **Temperature**: View how temperatures vary as a function of latitude.
 	* **Wind Speed**: Examine global wind speed variations.
-* Comparison Page**: This page allows you to compare all visualizations side by side, offering a comprehensive view of how different weather parameters change with latitude.
+* **Comparison Page**: This page allows you to compare all visualizations side by side, offering a comprehensive view of how different weather parameters change with latitude.
 * **Data Page**: To dive deeper into the numbers behind the visualizations, visit the data page. Here, you’ll find a responsive table displaying the dataset used for the dashboard’s visualizations.
 ### Interacting with Visualizations
 * **Responsive Design**: The dashboard is fully responsive, ensuring a seamless device experience. Resize your browser window or access the dashboard from a mobile device to see the layout adjust automatically for optimal viewing.
