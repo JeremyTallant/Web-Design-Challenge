@@ -10,7 +10,7 @@ In data-driven decision-making, the transformative power of data is unleashed wh
 - [Data](#data)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Project Structure(#project-structure)
+- [Project Structure](#project-structure)
 - [Usage](#usage)
 ## Objective
 The primary objective of the Web-Based Weather Explorer project is to design and implement an interactive dashboard that provides comprehensive insights into how weather variables change across different latitudes around the globe. By utilizing web technologies such as HTML, CSS, and Bootstrap, this project aims to create an accessible and user-friendly platform where users can engage with and analyze weather data through visualizations and comparisons. The dashboard will feature a variety of pages, each dedicated to a specific aspect of weather analysis, including temperature, humidity, cloudiness, and wind speed, among others. Additionally, the project seeks to demonstrate the power of data visualization in making complex data sets understandable and engaging for a broad audience. Through this interactive dashboard, users will gain a deeper understanding of global weather patterns, fostering greater awareness and curiosity about the natural world.
