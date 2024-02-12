@@ -32,8 +32,7 @@ The Web-Based Weather Explorer Dashboard leverages a combination of modern web d
 * **GitHub Pages**: Provides a hosting service that allows the dashboard to be deployed directly from the GitHub repository to the web, making it publicly accessible.
 
 These technologies were chosen for their reliability, scalability, and wide adoption in the web development community, ensuring that the Web-Based Weather Explorer Dashboard is built on a solid foundation that can evolve.
-
-
+## Usage
 
 
 
